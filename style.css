@@ -1,0 +1,51 @@
+*{
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.main-container {
+  padding: 30px 100px;
+}
+
+.intro {
+  font-size: 19.5px;
+}
+
+.text-right {
+  display: flex;
+  justify-content: flex-end;
+  /*float: right;*/
+}
+
+.icons img {
+  width: 150px;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.footer {
+  text-align: center;
+  font-size: 13px;
+}
+
+.footer-nav {
+  /*padding: 10px;*/
+  display: flex;
+  /*margin: 20px;*/
+  color: #0645AD;
+  justify-content: center;
+}
+
+.misfit {
+  flex-grow: .1;
+}
